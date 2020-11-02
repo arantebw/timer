@@ -16,8 +16,7 @@
   }
   
   body {
-    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans',
-      'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-family: 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
   
   .timer input {
@@ -32,6 +31,7 @@
     border: none;
     font-size: 36px;
     cursor: pointer;
+    background-color: transparent;
   }
   
   .timer button:focus {
@@ -53,4 +53,3 @@
     align-items: center;
     flex-direction: column;
   }
-  
